@@ -9675,3 +9675,46 @@ a.text-dark:hover, a.text-dark:focus {
   background: #FFFFFF;
   font-size: 30px;
 }
+
+/* LETTERS SECTION */
+
+.letter-card {
+    background: #ffffff;
+    border-radius: 15px;
+    position: relative;
+    transition: 0.3s ease;
+    background: linear-gradient(180deg, #ffffff 0%, #fdf8f9 100%);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.letter-card:hover {
+    transform: translateY(-5px);
+}
+
+.letter-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.letter-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.letter-signature {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.95rem;
+    color: #777;
+}
+
+.letter-signature span {
+    display: block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    color: #138496;
+    margin-top: 5px;
+}
+
