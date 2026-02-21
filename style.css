@@ -9734,3 +9734,66 @@ a.text-dark:hover, a.text-dark:focus {
     line-height: 2;
     color: #555;
 }
+
+.about-img {
+    width: 100%;
+    height: 450px;        
+    object-fit: cover;    
+    object-position: center;
+    border-radius: 20px;
+}
+
+.about-card:hover .about-img {
+    transition: all 0.3s ease;
+}
+
+#about h3 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.letters-carousel .letter-card {
+    border-radius: 20px;
+    background: #ffffff;
+    transition: 0.3s ease;
+}
+
+.letters-carousel .letter-card:hover {
+    transform: translateY(-5px);
+}
+
+.letter-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.letter-signature span {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8rem;
+    color: #e47a8b;
+}
+
+.letters-carousel .owl-nav {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  top: -90px;
+  left: calc(50% - 67px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.letters-carousel .owl-nav .owl-prev,
+.letters-carousel .owl-nav .owl-next {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background: pink;
+  font-size: 30px;
+}
