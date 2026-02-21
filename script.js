@@ -95,33 +95,20 @@
         }
     });
 
-    // Gallery carousel
-    $(".letters-carousel").owlCarousel({
-        autoplay: false,
-        smartSpeed: 1500,
-        dots: false,
+    $('.letters-carousel').owlCarousel({
         loop: true,
-        nav : true,
+        margin: 30,
+        smartSpeed: 1500,
+        nav: true,
         navText : [
             '<i class="fa fa-angle-left" aria-hidden="true"></i>',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
         ],
-        responsive: {
-            0:{
-                items:1
-            },
-            576:{
-                items:2
-            },
-            768:{
-                items:3
-            },
-            992:{
-                items:4
-            },
-            1200:{
-                items:5
-            }
+        dots: true,
+        autoplay: false,
+        responsive:{
+            0:{ items:1 },
+            768:{ items:2 }
         }
     });
     
