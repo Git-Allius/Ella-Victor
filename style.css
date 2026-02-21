@@ -9797,3 +9797,14 @@ a.text-dark:hover, a.text-dark:focus {
   background: pink;
   font-size: 30px;
 }
+
+.modal-content {
+  position: relative;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+}
